@@ -12,12 +12,12 @@ const loadScript = async () => {
 
 const startChangelogfy = async () => {
   window.CLF_config = {
-    app_id: "af12f992-0a0c-4cdf-8144-89af158c39e2",
+    app_id: "YOUR_APP_ID",
     selector: ".changelogfy-widget",
     data: {
-      user_email: "paulo@changelogfy.com",
-      user_id: "2",
-      user_name: "Paulo Castellano",
+      user_email: "",
+      user_id: "",
+      user_name: "",
     },
 
     callbacks: {
